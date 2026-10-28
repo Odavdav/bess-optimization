@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+pulp>=4.0
+highspy>=1.7
+openpyxl>=3.1
+jupyter
+pytest

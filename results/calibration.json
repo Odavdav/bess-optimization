@@ -1,0 +1,6 @@
+{
+  "lambda": 0.375,
+  "drawdown_pct": 0.005,
+  "rule_lambda": "most profitable with at most 1 loss day out of 7 (2024)",
+  "rule_drawdown": "most profitable budget never breached (2024)"
+}

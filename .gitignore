@@ -1,0 +1,10 @@
+# Raw downloads are not versioned (size); see README to download them again.
+# French day-ahead prices: CC BY 4.0, source Bundesnetzagentur | SMARD.de (via Energy-Charts).
+data/raw/
+results/log_*.txt
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
