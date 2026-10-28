@@ -60,5 +60,5 @@ without code is in [`notebooks/report.pdf`](notebooks/report.pdf).
 
 ## Licence
 
-Code: [MIT](LICENSE). Data keep their own licences: day-ahead prices CC BY 4.0 (Bundesnetzagentur | SMARD.de);
+Data keep their own licences: day-ahead prices CC BY 4.0 (Bundesnetzagentur | SMARD.de);
 FCR data from regelleistung.net are not redistributed, only results derived from them.
