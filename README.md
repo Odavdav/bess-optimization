@@ -3,7 +3,7 @@
 Day-ahead arbitrage, price uncertainty (Monte Carlo, mean-CVaR) and primary reserve (FCR) for a
 **50 MW / 100 MWh** battery, on French market data **2023-2025**. Every setting is chosen on 2024; 2025 is an
 out-of-sample test. The full story, with figures, is in [`notebooks/bess_analysis.ipynb`](notebooks/bess_analysis.ipynb). The same content
-without code is in [`notebooks/report.pdf`](report.pdf).
+without code is in [`report.pdf`](report.pdf).
 
 ## Results (test 2025)
 
