@@ -31,7 +31,6 @@ def metrics(results: pd.DataFrame) -> pd.DataFrame:
             "capture_vs_pf": d.sum() / pf.sum() if pf is not None else np.nan,
             "evpi_keur": (pf - d).sum() / 1000 if pf is not None else np.nan,
             "mean_daily_eur": d.mean(),
-            "sharpe_annualized": d.mean() / d.std() * np.sqrt(365) if d.std() > 0 else np.nan,
             "cvar90_daily_eur": cvar(d.to_numpy(), 0.9),
             "worst_day_eur": d.min(),
             "loss_days_pct": loss.mean(),
