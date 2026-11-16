@@ -73,10 +73,7 @@ def load_market_data(with_fcr: bool = True) -> MarketData:
 
 def day_inputs(md: MarketData, day, n_scenarios=config.N_SCENARIOS,
                method=config.SCENARIO_METHOD, seed=config.SEED):
-    """Central forecast, scenarios (known before the auction) and real prices of `day`.
 
-    The scenarios are reproducible: the same day always gets the same draws.
-    """
     day = pd.Timestamp(day)
     central = md.forecasts.loc[day, "arx"].to_numpy()
     pool = md.errors[md.errors.index < day].tail(config.ERROR_POOL_DAYS).to_numpy()
